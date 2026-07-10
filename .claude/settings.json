@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which chromium *)",
+      "Read(//Applications/**)",
+      "Read(//Users/fadhil/.cache/**)"
+    ]
+  }
+}
