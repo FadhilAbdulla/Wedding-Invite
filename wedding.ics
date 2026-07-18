@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fadhil and Fathima//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:nikkah-fadhil-fathima-20260822@wedding.invite
+DTSTAMP:20260718T000000Z
+DTSTART:20260822T133000Z
+DTEND:20260822T163000Z
+SUMMARY:Nikkah — Fadhil & Fathima
+DESCRIPTION:After Maghrib. Together with their families\, you are warmly
+  invited to the Nikkah of Fadhil Abdulla and Fathima Najaf.
+LOCATION:Afsana\, Madeena Masjid Road\, via IT Road\, Saidarpally\, Thalas
+ sery
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nikkah — Fadhil & Fathima is tomorrow
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
