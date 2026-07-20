@@ -4,8 +4,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#3b2a1c">
-  <title>Fadhil &amp; Fathima — 22 August 2026</title>
-  <meta name="description" content="The wedding invitation of Fadhil Abdulla and Fathima Najaf.">
+  <title>Fadhil - Fathima Nikkah | 22 August 2026, Thalassery</title>
+  <meta name="description" content="Fadhil - Fathima Nikkah — 22nd August 2026, after Maghrib, at Afsana, Saidarpally, Thalassery. Together with their families, you are warmly invited.">
+  <link rel="canonical" href="https://nikah-invite.pyalm.com/">
+  <meta name="robots" content="index,follow">
+
+  <!-- link previews: WhatsApp, iMessage, Facebook. Absolute URLs are required. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fadhil - Fathima Nikkah">
+  <meta property="og:title" content="Fadhil - Fathima Nikkah">
+  <meta property="og:description" content="22nd August 2026, after Maghrib — at Afsana, Saidarpally, Thalassery. Insha Allah.">
+  <meta property="og:url" content="https://nikah-invite.pyalm.com/">
+  <meta property="og:image" content="https://nikah-invite.pyalm.com/assets/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://nikah-invite.pyalm.com/assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Wedding invitation of Fadhil Abdulla and Fathima Najaf, 22 August 2026">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fadhil - Fathima Nikkah">
+  <meta name="twitter:description" content="22nd August 2026, after Maghrib — at Afsana, Saidarpally, Thalassery. Insha Allah.">
+  <meta name="twitter:image" content="https://nikah-invite.pyalm.com/assets/og-image.jpg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Italiana&display=swap" rel="stylesheet">
@@ -32,6 +54,9 @@
       height:100dvh;overflow:hidden;
       display:flex;align-items:center;justify-content:center;
     }
+
+    /* keeps the <img> itself as the flex child, not the <picture> wrapper */
+    picture{display:contents}
 
     /* full width, no side cropping, centred vertically.
        max-height keeps wide/landscape screens from blowing it up. */
@@ -104,9 +129,41 @@
 
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
   </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Event",
+    "name":"Fadhil - Fathima Nikkah",
+    "description":"The Nikkah of Fadhil Abdulla and Fathima Najaf.",
+    "startDate":"2026-08-22T19:00:00+05:30",
+    "endDate":"2026-08-22T22:00:00+05:30",
+    "eventStatus":"https://schema.org/EventScheduled",
+    "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+    "image":"https://nikah-invite.pyalm.com/assets/og-image.jpg",
+    "url":"https://nikah-invite.pyalm.com/",
+    "location":{
+      "@type":"Place",
+      "name":"Afsana (Groom's Residence)",
+      "address":{
+        "@type":"PostalAddress",
+        "streetAddress":"Afsana, Madeena Masjid Road, via JT Road, Saidarpally",
+        "addressLocality":"Thalassery",
+        "addressRegion":"Kerala",
+        "addressCountry":"IN"
+      }
+    },
+    "organizer":{"@type":"Person","name":"Fadhil Abdulla"}
+  }
+  </script>
 </head>
 <body>
-  <img class="invitation" src="assets/invitation-reference.png" alt="Wedding invitation for Fadhil Abdulla and Fathima Najaf, 22 August 2026 after Maghrib at Afsana, Saidarpally, Thalassery">
+  <!-- WebP is ~87% smaller; the PNG stays as a fallback for older browsers -->
+  <picture>
+    <source srcset="assets/invitation-reference.webp" type="image/webp">
+    <img class="invitation" src="assets/invitation-reference.png"
+         width="1060" height="1484" fetchpriority="high" decoding="async"
+         alt="Wedding invitation for Fadhil Abdulla and Fathima Najaf, 22 August 2026 after Maghrib at Afsana, Saidarpally, Thalassery">
+  </picture>
 
   <div class="footer">
     <nav class="actions" aria-label="Invitation actions">
