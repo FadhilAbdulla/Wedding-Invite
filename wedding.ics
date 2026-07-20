@@ -1,23 +1,25 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Fadhil and Fathima//Wedding Invitation//EN
+PRODID:-//Fadhil and Fathima//Nikkah Invitation//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:nikkah-fadhil-fathima-20260822@wedding.invite
-DTSTAMP:20260718T000000Z
+UID:nikkah-fadhil-fathima-20260822@nikah-invite.pyalm.com
+DTSTAMP:20260720T000000Z
 DTSTART:20260822T133000Z
 DTEND:20260822T163000Z
-SUMMARY:Nikkah — Fadhil & Fathima
-DESCRIPTION:After Maghrib. Together with their families\, you are warmly
-  invited to the Nikkah of Fadhil Abdulla and Fathima Najaf.
-LOCATION:Afsana\, Madeena Masjid Road\, via IT Road\, Saidarpally\, Thalas
- sery
+SUMMARY:Nikkah - Fadhil & Fathima
+DESCRIPTION:Together with their families\, you are warmly invited to the 
+ Nikkah of Fadhil Abdulla and Fathima Najaf K on 22nd August 2026\, after
+  Maghrib\, at the groom's residence. Phone: 9746595925
+LOCATION:Afsana (Groom's Residence)\, Madeena Masjid Road\, via JT Road\,
+  Saidarpally\, Thalassery
+URL:https://nikah-invite.pyalm.com/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Nikkah — Fadhil & Fathima is tomorrow
+DESCRIPTION:Nikkah - Fadhil & Fathima is tomorrow
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
