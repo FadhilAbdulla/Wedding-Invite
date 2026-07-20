@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c98f"/>
+      <stop offset=".45" stop-color="#b3915f"/>
+      <stop offset="1" stop-color="#87673c"/>
+    </linearGradient>
+  </defs>
+  <!-- band -->
+  <circle cx="16" cy="20.4" r="8.2" fill="none" stroke="url(#g)" stroke-width="3.2"/>
+  <!-- brilliant-cut solitaire: flat table, crown, pointed pavilion -->
+  <path d="M12.8 3.4h6.4L21.5 6.5 16 11.9 10.5 6.5Z" fill="url(#g)"/>
+  <path d="M10.5 6.5h11M12.8 3.4 16 11.9 19.2 3.4" stroke="#fff" stroke-width=".65"
+        opacity=".5" fill="none" stroke-linejoin="round"/>
+</svg>
